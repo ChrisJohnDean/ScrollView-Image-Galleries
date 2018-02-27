@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageDetailViewController.h
 //  ScrollView Image Galleries
 //
 //  Created by Chris Dean on 2018-02-26.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ImageDetailViewController.h"
 
-@interface ViewController : UIViewController
+@interface ImageDetailViewController : UIViewController
 
+@property (nonatomic, weak) UIImage *capturedImage;
 
 @end
-

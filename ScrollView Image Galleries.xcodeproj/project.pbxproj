@@ -15,6 +15,7 @@
 		892514EA2044F628001F1FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 892514E92044F628001F1FE7 /* main.m */; };
 		892514F42044F628001F1FE7 /* ScrollView_Image_GalleriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892514F32044F628001F1FE7 /* ScrollView_Image_GalleriesTests.m */; };
 		892514FF2044F628001F1FE7 /* ScrollView_Image_GalleriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892514FE2044F628001F1FE7 /* ScrollView_Image_GalleriesUITests.m */; };
+		89778982204502FE00D46139 /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89778981204502FE00D46139 /* ImageDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		892514FA2044F628001F1FE7 /* ScrollView Image GalleriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView Image GalleriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		892514FE2044F628001F1FE7 /* ScrollView_Image_GalleriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_Image_GalleriesUITests.m; sourceTree = "<group>"; };
 		892515002044F628001F1FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89778980204502FE00D46139 /* ImageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
+		89778981204502FE00D46139 /* ImageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				892514E52044F628001F1FE7 /* LaunchScreen.storyboard */,
 				892514E82044F628001F1FE7 /* Info.plist */,
 				892514E92044F628001F1FE7 /* main.m */,
+				89778980204502FE00D46139 /* ImageDetailViewController.h */,
+				89778981204502FE00D46139 /* ImageDetailViewController.m */,
 			);
 			path = "ScrollView Image Galleries";
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				892514DF2044F628001F1FE7 /* ViewController.m in Sources */,
 				892514EA2044F628001F1FE7 /* main.m in Sources */,
 				892514DC2044F628001F1FE7 /* AppDelegate.m in Sources */,
+				89778982204502FE00D46139 /* ImageDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
