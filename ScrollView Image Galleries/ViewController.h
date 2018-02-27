@@ -10,7 +10,7 @@
 #import "ImageDetailViewController.h"
 
 @interface ViewController : UIViewController
-
+@property (nonatomic, retain) UIPageControl *pageControl;
 
 @end
 

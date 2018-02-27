@@ -33,6 +33,13 @@
     [self.scrollView setPagingEnabled:YES];
     [self.scrollView setDelegate:self];
     [self setupImages];
+    self.pageControl = [[UIPageControl alloc] init];
+    self.pageControl.frame = CGRectMake(110,5,100,100);
+    self.pageControl.center = CGPointMake(187, 550);
+    self.pageControl.numberOfPages = self.images.count;
+    self.pageControl.currentPage = 0;
+    [self.view addSubview:self.pageControl];
+    self.pageControl.backgroundColor = [UIColor redColor];
 }
 
 - (void)setupImages {
@@ -75,6 +82,13 @@
         vc.capturedImage = ((UIImageView *)sender).image;
         
     }
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    CGFloat pageWidth = self.scrollView.frame.size.width;
+    float fractionalPage = self.scrollView.contentOffset.x / pageWidth;
+    NSInteger page = lround(fractionalPage);
+    self.pageControl.currentPage = page;
 }
 
 @end
